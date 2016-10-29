@@ -1,0 +1,36 @@
+{
+  "name": "user",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "required": true,
+      "default": "Imię"
+    },
+    "lastName": {
+      "type": "string",
+      "required": true,
+      "default": "Nazwisko"
+    },
+    "favoriteProductsIds": {
+      "type": [
+        "number"
+      ],
+      "required": true
+    },
+    "shoppingLists": {
+      "type": [
+        "array"
+      ],
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
