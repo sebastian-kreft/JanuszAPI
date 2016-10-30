@@ -1,0 +1,34 @@
+{
+  "name": "product",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "productName": {
+      "type": "string",
+      "default": "nazwa-produktu"
+    },
+    "price": {
+      "type": "number",
+      "default": 0
+    },
+    "category": {
+      "type": "string",
+      "default": "kategoria-produktu"
+    },
+    "productId": {
+      "type": "number",
+      "default": 0
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": "sciezka-do-zdjecia"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
