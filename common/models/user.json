@@ -26,7 +26,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "price-markers": {
+      "type": "hasMany",
+      "model": "price-marker",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
