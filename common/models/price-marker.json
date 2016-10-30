@@ -7,8 +7,7 @@
   },
   "properties": {
     "productId": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "shopPosition": {
       "type": "geopoint"
@@ -17,8 +16,7 @@
       "type": "date"
     },
     "userId": {
-      "type": "string",
-      "required": true
+      "type": "string"
     }
   },
   "validations": [],
