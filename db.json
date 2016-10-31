@@ -1,0 +1,46 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "user": 6,
+    "price-marker": 1,
+    "product": 23
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "user": {
+      "5": "{\"firstName\":\"Sebastian\",\"lastName\":\"Kreft\",\"favoriteProductsIds\":[1,3,4,7,8,11,14,15,18,20],\"shoppingLists\":[[{\"productId\":19,\"quantity\":2},{\"productId\":20,\"quantity\":3},{\"productId\":21,\"quantity\":10},\"Zakupy w Obi\"],[{\"productId\":1,\"quantity\":4},{\"productId\":3,\"quantity\":1},{\"productId\":7,\"quantity\":4},{\"productId\":8,\"quantity\":2},{\"productId\":11,\"quantity\":1},\"Zakupy w Lidlu\"],[{\"productId\":5,\"quantity\":1},{\"productId\":6,\"quantity\":1},{\"productId\":10,\"quantity\":1},{\"productId\":13,\"quantity\":1},{\"productId\":16,\"quantity\":2}]],\"id\":5}"
+    },
+    "price-marker": {},
+    "product": {
+      "1": "{\"productName\":\"Kajzerka\",\"price\":0.4,\"category\":\"Pieczywo\",\"productId\":1,\"imageUrl\":\"/thumbnails/1.jpg\",\"id\":1}",
+      "2": "{\"productName\":\"Bułka wiejska\",\"price\":0.6,\"category\":\"Pieczywo\",\"productId\":2,\"imageUrl\":\"/thumbnails/2.jpg\",\"id\":2}",
+      "3": "{\"productName\":\"Chleb oliwski\",\"price\":2,\"category\":\"Pieczywo\",\"productId\":3,\"imageUrl\":\"/thumbnails/3.jpg\",\"id\":3}",
+      "4": "{\"productName\":\"Chleb żytni\",\"price\":0.4,\"category\":\"Pieczywo\",\"productId\":4,\"imageUrl\":\"/thumbnails/4.jpg\",\"id\":4}",
+      "5": "{\"productName\":\"Coca-cola\",\"price\":2.99,\"category\":\"Napoje\",\"productId\":5,\"imageUrl\":\"/thumbnails/5.jpg\",\"id\":5}",
+      "6": "{\"productName\":\"Woda mineralna\",\"price\":1.6,\"category\":\"Napoje\",\"productId\":6,\"imageUrl\":\"/thumbnails/6.jpg\",\"id\":6}",
+      "7": "{\"productName\":\"Piwo Specjal\",\"price\":2.5,\"category\":\"Napoje\",\"productId\":7,\"imageUrl\":\"/thumbnails/7.jpg\",\"id\":7}",
+      "8": "{\"productName\":\"Sok pomarańczowy\",\"price\":2.99,\"category\":\"Napoje\",\"productId\":8,\"imageUrl\":\"/thumbnails/8.jpg\",\"id\":8}",
+      "9": "{\"productName\":\"Czekolada\",\"price\":2.99,\"category\":\"Słodycze\",\"productId\":9,\"imageUrl\":\"/thumbnails/9.jpg\",\"id\":9}",
+      "10": "{\"productName\":\"Drożdzówka\",\"price\":1.3,\"category\":\"Słodycze\",\"productId\":10,\"imageUrl\":\"/thumbnails/10.jpg\",\"id\":10}",
+      "11": "{\"productName\":\"Budyń\",\"price\":2,\"category\":\"Słodycze\",\"productId\":11,\"imageUrl\":\"/thumbnails/11.jpg\",\"id\":11}",
+      "12": "{\"productName\":\"Wafelek\",\"price\":1.2,\"category\":\"Słodycze\",\"productId\":12,\"imageUrl\":\"/thumbnails/12.jpg\",\"id\":12}",
+      "13": "{\"productName\":\"Cebula 1kg\",\"price\":1,\"category\":\"Warzywa\",\"productId\":13,\"imageUrl\":\"/thumbnails/13.jpg\",\"id\":13}",
+      "14": "{\"productName\":\"Burak 1kg\",\"price\":0.9,\"category\":\"Warzywa\",\"productId\":14,\"imageUrl\":\"/thumbnails/14.jpg\",\"id\":14}",
+      "15": "{\"productName\":\"Marchew 1kg\",\"price\":1.3,\"category\":\"Warzywa\",\"productId\":15,\"imageUrl\":\"/thumbnails/15.jpg\",\"id\":15}",
+      "16": "{\"productName\":\"Pendrive\",\"price\":20,\"category\":\"Elektronika\",\"productId\":16,\"imageUrl\":\"/thumbnails/16.jpg\",\"id\":16}",
+      "17": "{\"productName\":\"Płyta CD\",\"price\":3,\"category\":\"Elektronika\",\"productId\":17,\"imageUrl\":\"/thumbnails/17.jpg\",\"id\":17}",
+      "18": "{\"productName\":\"Akumulatory AAA\",\"price\":9.5,\"category\":\"Elektronika\",\"productId\":18,\"imageUrl\":\"/thumbnails/18.jpg\",\"id\":18}",
+      "19": "{\"productName\":\"Wiadro\",\"price\":19.5,\"category\":\"Artykuły budowlane\",\"productId\":19,\"imageUrl\":\"/thumbnails/19.jpg\",\"id\":19}",
+      "20": "{\"productName\":\"Cement 25kg\",\"price\":23,\"category\":\"Artykuły budowlane\",\"productId\":20,\"imageUrl\":\"/thumbnails/20.jpg\",\"id\":20}",
+      "21": "{\"productName\":\"Cegła\",\"price\":11,\"category\":\"Artykuły budowlane\",\"productId\":21,\"imageUrl\":\"/thumbnails/21.jpg\",\"id\":21}"
+    }
+  }
+}
