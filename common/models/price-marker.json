@@ -9,6 +9,9 @@
     "productId": {
       "type": "number"
     },
+    "price": {
+      "type": "number"
+    },
     "shopPosition": {
       "type": "geopoint"
     },
