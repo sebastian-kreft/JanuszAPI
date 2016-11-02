@@ -6,7 +6,7 @@
     "RoleMapping": 1,
     "Role": 1,
     "user": 6,
-    "price-marker": 1,
+    "price-marker": 6,
     "product": 23
   },
   "models": {
@@ -18,7 +18,13 @@
     "user": {
       "5": "{\"firstName\":\"Sebastian\",\"lastName\":\"Kreft\",\"favoriteProductsIds\":[1,3,4,7,8,11,14,15,18,20],\"shoppingLists\":[[{\"productId\":19,\"quantity\":2},{\"productId\":20,\"quantity\":3},{\"productId\":21,\"quantity\":10},\"Zakupy w Obi\"],[{\"productId\":1,\"quantity\":4},{\"productId\":3,\"quantity\":1},{\"productId\":7,\"quantity\":4},{\"productId\":8,\"quantity\":2},{\"productId\":11,\"quantity\":1},\"Zakupy w Lidlu\"],[{\"productId\":5,\"quantity\":1},{\"productId\":6,\"quantity\":1},{\"productId\":10,\"quantity\":1},{\"productId\":13,\"quantity\":1},{\"productId\":16,\"quantity\":2}]],\"id\":5}"
     },
-    "price-marker": {},
+    "price-marker": {
+      "1": "{\"productId\":1,\"price\":0.45,\"shopPosition\":{\"lat\":54.547208,\"lng\":18.523111},\"date\":\"2016-11-02T00:00:00.000Z\",\"userId\":5,\"id\":1}",
+      "2": "{\"productId\":1,\"price\":0.35,\"shopPosition\":{\"lat\":54.308506,\"lng\":18.673853},\"date\":\"2016-11-01T00:00:00.000Z\",\"userId\":5,\"id\":2}",
+      "3": "{\"productId\":1,\"price\":0.35,\"shopPosition\":{\"lat\":54.446539,\"lng\":18.41928},\"date\":\"2016-10-30T00:00:00.000Z\",\"userId\":5,\"id\":3}",
+      "4": "{\"productId\":1,\"price\":0.52,\"shopPosition\":{\"lat\":54.446539,\"lng\":18.41928},\"date\":\"2016-10-29T00:00:00.000Z\",\"userId\":5,\"id\":4}",
+      "5": "{\"productId\":2,\"price\":0.65,\"shopPosition\":{\"lat\":54.446239,\"lng\":18.41958},\"date\":\"2016-10-29T12:25:36.000Z\",\"userId\":5,\"id\":5}"
+    },
     "product": {
       "1": "{\"productName\":\"Kajzerka\",\"price\":0.4,\"category\":\"Pieczywo\",\"productId\":1,\"imageUrl\":\"/thumbnails/1.jpg\",\"id\":1}",
       "2": "{\"productName\":\"Bułka wiejska\",\"price\":0.6,\"category\":\"Pieczywo\",\"productId\":2,\"imageUrl\":\"/thumbnails/2.jpg\",\"id\":2}",
